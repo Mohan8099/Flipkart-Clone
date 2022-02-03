@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1e73fc;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 10vh;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.logo {
+    height: 24px;
+    width: 72px;
+}
+
+.explore-container {
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+}
+
+.explore {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.span-item {
+    color: #edcb21;
+}
+
+.icon {
+    height: 8px;
+    width: 8px;
+}
+
+.search-container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 60%;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.input-bar {
+    border-radius: 8px;
+    border: 0px;
+    padding-left: 12px;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.login-info {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.btn {
+    background-color: #c8e1e6;
+    border: 0;
+    border-radius: 8px;
+    width: 72px;
+    height: 24px;
+    font-family: Roboto;
+    color: #051701;
+    align-self: center;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.offers-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    text-align: center;
+}
+
+.offer-img {
+    height: 78px;
+    width: 78px;
+}
+
+.offer-details {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #04422c;
+}
+
+.offer {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #030640;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 10vh;
+}
+
+.sale-details {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 12px;
+}
+
+.vertical-line {
+    transform: rotate(180deg);
+    color: #ffffff;
+}
+
+.refresh-span {
+    color: #ab9d4f;
+    cursor: pointer;
+}
+
+.body-container {
+    min-height: 50vh;
+    background-image: url('https://assets.ccbp.in/frontend/dynamic-webapps/book-search-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.description {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.books-btn {
+    margin: 8px;
+    height: 34px;
+    width: 120px;
+    font-family: roboto;
+    text-align: center;
+    color: #323f4b;
+    background-color: #97a9f0;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.info {
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 24px;
+}
+
+.books-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.book-title {
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.books-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
